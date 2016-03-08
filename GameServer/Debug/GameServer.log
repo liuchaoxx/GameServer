@@ -1,0 +1,26 @@
+﻿生成启动时间为 2016/3/8 18:40:10。
+     1>项目“E:\workspace\GameServer\GameServer\GameServer.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\GameServer.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt GameServer.cpp
+         GameServer.cpp
+     1>e:\workspace\gameserver\gameserver\gameserver.cpp(31): error C2976: “MemoryPool”: 模板 参数太少
+                 e:\workspace\gameserver\gameserver\memorypool.h(9) : 参见“MemoryPool”的声明
+     1>e:\workspace\gameserver\gameserver\gameserver.cpp(31): error C2514: “MemoryPool”: 类没有构造函数
+                 e:\workspace\gameserver\gameserver\memorypool.h(9) : 参见“MemoryPool”的声明
+     1>e:\workspace\gameserver\gameserver\gameserver.cpp(32): error C2662: “T *MemoryPool<T,ThreadModel,ResizePolicy>::Alloc(void)”: 不能将“this”指针从“MemoryPool”转换为“MemoryPool<T,ThreadModel,ResizePolicy> &”
+                 原因如下:  无法从“MemoryPool”转换为“MemoryPool<T,ThreadModel,ResizePolicy>”
+                 转换要求第二个用户定义的转换运算符或构造函数
+     1>e:\workspace\gameserver\gameserver\gameserver.cpp(35): error C2662: “UINT MemoryPool<T,ThreadModel,ResizePolicy>::Size(void) const”: 不能将“this”指针从“MemoryPool”转换为“const MemoryPool<T,ThreadModel,ResizePolicy> &”
+                 原因如下:  无法从“MemoryPool”转换为“const MemoryPool<T,ThreadModel,ResizePolicy>”
+                 转换要求第二个用户定义的转换运算符或构造函数
+     1>e:\workspace\gameserver\gameserver\gameserver.cpp(36): error C2662: “void MemoryPool<T,ThreadModel,ResizePolicy>::Free(T *)”: 不能将“this”指针从“MemoryPool”转换为“MemoryPool<T,ThreadModel,ResizePolicy> &”
+                 原因如下:  无法从“MemoryPool”转换为“MemoryPool<T,ThreadModel,ResizePolicy>”
+                 转换要求第二个用户定义的转换运算符或构造函数
+     1>e:\workspace\gameserver\gameserver\gameserver.cpp(37): error C2662: “UINT MemoryPool<T,ThreadModel,ResizePolicy>::Size(void) const”: 不能将“this”指针从“MemoryPool”转换为“const MemoryPool<T,ThreadModel,ResizePolicy> &”
+                 原因如下:  无法从“MemoryPool”转换为“const MemoryPool<T,ThreadModel,ResizePolicy>”
+                 转换要求第二个用户定义的转换运算符或构造函数
+     1>已完成生成项目“E:\workspace\GameServer\GameServer\GameServer.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:03.90
